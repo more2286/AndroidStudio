@@ -7,7 +7,7 @@ import android.bluetooth.*;
 import android.net.wifi.*;
 
 public class actPrincipal extends AppCompatActivity {
-
+//Prueba
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
