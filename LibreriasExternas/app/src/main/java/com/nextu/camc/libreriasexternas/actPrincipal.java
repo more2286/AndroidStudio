@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.hardware.*;
 import android.bluetooth.*;
 import android.net.wifi.*;
+import android.location.*;
 
 public class actPrincipal extends AppCompatActivity {
 //Prueba
@@ -16,5 +17,13 @@ public class actPrincipal extends AppCompatActivity {
         WifiManager objWifiManager;
         Sensor objSensor;
         BluetoothManager objBluetoothManager;
+
+        LocationManager objLocationManager = null;
+        LocationProvider objLocationProvider = null;
+        LocationListener objLocationListener = null;
+
+        objLocationManager.getClass();
+        objLocationProvider.getAccuracy();
+        objLocationListener.getClass();
     }
 }
