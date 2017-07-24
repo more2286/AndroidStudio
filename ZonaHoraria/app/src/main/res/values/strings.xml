@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ZonaHoraria</string>
+    <string name="strHora">12:00</string>
+    <string name="strFecha">26 de Julio, Viernes, Bógota</string>
+    <string name="strMexico">México D.F ------------------- 23:00</string>
+    <string name="strSantiago">Santiago ----------------------- 23:00</string>
+    <string name="strMontevideo">Montevideo ------------------- 23:00</string>
+</resources>
