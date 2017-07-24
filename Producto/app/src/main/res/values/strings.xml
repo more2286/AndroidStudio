@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Producto</string>
+    <string name="strCodigo">Codigo</string>
+    <string name="strNombre">Nombre del producto</string>
+    <string name="strPeso">Peso (Kgr)</string>
+    <string name="strDescripcion">Descripcion</string>
+    <string name="strEnviar">Enviar</string>
+    <string name="strCancelar">Cancelar</string>
+</resources>
