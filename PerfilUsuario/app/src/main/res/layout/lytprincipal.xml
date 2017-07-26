@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.nextu.camc.perfilusuario.actPrincipal">
+
+    <ImageView
+        android:id="@+id/imgGato"
+        android:layout_width="125dp"
+        android:layout_height="100dp"
+        android:src="@drawable/gato"
+        android:scaleType="centerCrop"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgGato"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Cambiar Foto" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgGato"
+        android:text="Juan Perez"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginTop="32dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/lblNombre" />
+    <TextView
+        android:id="@+id/lblCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="juanperez@gmail.com"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_below="@id/lblNombre"
+        android:layout_marginTop="32dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/lblCorreo" />
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/btnCancelar"/>
+</RelativeLayout>
